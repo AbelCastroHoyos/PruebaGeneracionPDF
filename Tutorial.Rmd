@@ -1,0 +1,30 @@
+---
+title: "Prueba"
+author: "Abel Castro"
+date: "27 de febrero de 2016"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+Este es un tutorial para aprender a generar archivos PDF que se generan automaticamente los cuales pueden aprovecharse para situaciones diversas a niel académico y a nivel empresarial. Se puede ver por ejemplo un portal de la compañìa desde el mismo archivo, de la siguiente manera <http://formasintimas.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
